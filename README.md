@@ -41,7 +41,7 @@ We use this method towards the end of the game when very few possible card permu
 
 ### Analytical center
 We can view the problem slightly differently. If we no longer require the variables to be booleans, but instead floats [0,1], representing probabilities. The constraints we listed geometrically give us a "feasible region" and we can calculate the average value of those floats by finding the ["analytical center of the feasible region"](https://www.cs.cmu.edu/~ggordon/10725-F12/scribes/10725_Lecture22.pdf). This requires optimising a sum of logs. Fortunately that function is convex when the variables are >0 and we can use a convex solver.
-The way we implement it here is to reformulate all inequalities as equalities using [slack variables](https://en.wikipedia.org/wiki/Slack_variable) and minimizing $\sum_{i}x_{i}$ where $x_{i}$ is the vector of all our variables, including slack variables given all the constraints.
+The way we implement it here is to reformulate all inequalities as equalities using [slack variables](https://en.wikipedia.org/wiki/Slack_variable) and minimizing $\sum_{i}\log{x_{i}}$ where $x_{i}$ is the vector of all our variables, including slack variables given all the constraints.
 
 This method is very fast. However, the results are approximate. This method reasons in terms of volumes of feasibility whereas in reality what matters are specific points in that volume, as we discussed in the #Sat section. The real problem is discrete and here we are treating the problem as continous. Therefore as we get nearer to the end of the game, and fewer and fewer card permutations obey the constraints, our continuous approximation becomes less precise.
 
