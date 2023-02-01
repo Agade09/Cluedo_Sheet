@@ -1,0 +1,9 @@
+*
+!.gitignore
+!Cluedo_Sheet.py
+!README.md
+
+!src
+src/*
+!src/__init__.py
+!src/localization.py
