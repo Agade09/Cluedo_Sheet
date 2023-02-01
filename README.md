@@ -35,7 +35,7 @@ There are 21 cards, N players's hands and the solution envelope. If we picture t
 * If a player showed you a card, that cell ==1
 * For the cards in your hand, that cell ==1
 
-This can be viewed as a boolean satisfiability problem. Using a "sat-solver" we can find a solution to these constraints. But what we are interested in, is producing all solutions and counting the percentage of which include each card. This method is **exact** but it is a so-called #Sat problem which is known to be computationally very expensive.
+This can be viewed as a boolean satisfiability problem. Using a "sat-solver" we can find a solution to these constraints. But what we are interested in, is producing all solutions and counting the percentage of which include each card. This method is **exact** but it is a so-called [#Sat](https://en.wikipedia.org/wiki/Sharp-SAT) problem which is known to be computationally very expensive.
 
 We use this method towards the end of the game when very few possible card permutations remain.
 
