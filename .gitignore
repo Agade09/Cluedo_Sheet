@@ -2,6 +2,7 @@
 !.gitignore
 !Cluedo_Sheet.py
 !README.md
+!requirements.txt
 
 !src
 src/*
