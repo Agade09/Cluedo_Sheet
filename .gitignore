@@ -8,3 +8,7 @@
 src/*
 !src/__init__.py
 !src/localization.py
+
+!img
+img/*
+!img/GUI.webp
