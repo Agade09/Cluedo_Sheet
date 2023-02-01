@@ -3,7 +3,7 @@ Localization = {'English':{
         'Suspect_Colors':[[128,0,255],[255,255,0],[0,255,0],[255,0,0],[255,0,255],[0,0,255]],
         },
     'Français':{
-        'Card_Names':["Rose","Moutarde","Leblanc","Olive","Pervenche","Violet","Poignard","Revolver","Chandelier","Corde","Clé anglaise","Matraque","Cuisine","Grand salon","Petit salon","Salle à manger","Bureau","Bibliothèque","Véranda","Hall","Studio"],
-        'Suspect_Colors':[[255,0,0],[255,255,0],[255,255,255],[0,255,0],[0,0,255],[128,0,255]],
+        'Card_Names':["Moutarde","Violet","Olive","Pervenche","Rose","Leblanc","Poignard","Chandelier","Revolver","Corde","Matraque","Clé anglaise","Hall","Petit salon","Salle à manger","Cuisine","Grand salon","Véranda","Studio","Bibliothèque","Bureau"],
+        'Suspect_Colors':[[255,255,0],[128,0,255],[0,255,0],[0,0,255],[255,0,0],[255,255,255]],
     }
 }
