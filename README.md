@@ -26,7 +26,7 @@ There are 3 ways I know of to calculate the probabilities.
 ### #Sat
 There are 21 cards, N players's hands and the solution envelope. If we picture the cluedo sheet, including the envelope's cards, we have a matrix of boolean variables that must obey the following equations:
 * The sum of every row is 1 (each card can only be in one player's hands or in the envelope)
-* The sum of every player column is that player's numbers of cards (each player has an exactly know number of cards)
+* The sum of every player column is that player's numbers of cards (each player has an exactly known number of cards)
 * The sum of the envelope column's first 6 cells is 1 (there is exactly 1 suspect card in the envelope)
 * The sum of the envelope column's next 6 cells is 1 (there is exactly 1 weapon card in the envelope)
 * The sum of the envelope column's last 9 cells is 1 (there is exactly 1 room card in the envelope)
