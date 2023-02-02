@@ -16,7 +16,7 @@ If a player shows you a card right click "Add Card" the relevant cell.
 You can also click row and column names on the sheet to change the suspect/weapon/room cards and hypothesis player.
 
 ### Undo/Redo
-You can undo the last information you've added by pressing "Undo". You can redo the last information you have undone by pressing "Redo".
+You can undo the last information you've added by pressing "Undo" or pressing ctrl+z. You can redo the last information you have undone by pressing "Redo" or pressing ctrl+y.
 You can also right click "Remove" any information in the list.
 
 
