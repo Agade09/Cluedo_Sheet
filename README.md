@@ -50,4 +50,4 @@ We use this method throughout the game as the quality of the approximation seems
 ### Monte Carlo draws
 In a 3 player game there are 6x6x9x3^18 (~125 billion) ways of distributing the cards. One can sample card combinations, and among the ones that obey the constraints, we can count the frequency of every card being in a given player's hands or being in the solution envelope. This is an unbiased estimator of the true probabilities. However, if we consider an end-game scenario where there are 5 possible card combinations, this method is **extremely** unlikely to land on any hands which obey the constraints.
 
-One way to mitigate this would be to only sample where the distribution has support (where card probabilities>0) but one has to be wary not to introduce bias and we have not tested if this is enough to estimate the probabilities fast enough.
+One way to mitigate this would be to only sample where the distribution has support (where card probabilities>0) but one has to be weary not to introduce bias and we have not tested if this is enough to estimate the probabilities fast enough.
